@@ -22,12 +22,23 @@ exclude: [node_modules, package.json, Gulpfile, Gemfile, Gemfile.lock, vendor]
 keep_files: [assets]
 permalink: '/:collection/:title/'
 
+collections:
+  locations:
+    output: true
+    permalink: /locations/:path.html
+
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: locations
+    values:
+      layout: "location"
 
 test:
   post:

@@ -2,4 +2,8 @@
 layout: default
 ---
 
-Welcome to the City of Boston!
+<ul>
+  {% for location in site.locations %}
+    <li><a href="{{ location.url }}" title="{{ location.title }}">{{ location.title }}</a></li>
+  {% endfor %}
+</ul>
