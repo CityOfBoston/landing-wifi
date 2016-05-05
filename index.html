@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<ul>
+<h1 class="c-g100 ff-s fs-i fw-300">Available locations</h1>
+
+<ul class="ff-ss fs-400 ls-none mh-000 ph-000 tt-u">
   {% for location in site.locations %}
-    <li><a href="{{ location.url }}" title="{{ location.title }}">{{ location.title }}</a></li>
+    <li class="fw-700 mb-200 mh-000 ph-000"><a href="{{ location.url }}" title="{{ location.title }}" class="c-w td-n">{{ location.title }}</a></li>
   {% endfor %}
 </ul>
