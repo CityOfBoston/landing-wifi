@@ -18,7 +18,7 @@ github_username:  CityOfBoston
 # Build settings
 markdown: kramdown
 
-exclude: [node_modules, package.json, Gulpfile, Gemfile, Gemfile.lock, vendor, Rakefile, Procfile]
+exclude: [node_modules, package.json, Gulpfile, Gemfile, Gemfile.lock, vendor, Rakefile, Procfile, config.ru]
 keep_files: [assets]
 permalink: '/:collection/:title/'
 
