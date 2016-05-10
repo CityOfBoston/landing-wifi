@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: CoB Static Starter
+title: Wicked Free Wi-Fi Landing Pages
 email: digital@boston.gov
 description: > # this means to ignore newlines until "baseurl:"
   A base for any static HTML projects
@@ -18,7 +18,7 @@ github_username:  CityOfBoston
 # Build settings
 markdown: kramdown
 
-exclude: [node_modules, package.json, Gulpfile, Gemfile, Gemfile.lock, vendor]
+exclude: [node_modules, package.json, Gulpfile, Gemfile, Gemfile.lock, vendor, Rakefile, Procfile]
 keep_files: [assets]
 permalink: '/:collection/:title/'
 
