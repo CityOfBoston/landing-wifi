@@ -11,3 +11,5 @@ gulp
 ```
 
 At this point, you should be able to visit `https://0.0.0.0:3000`.
+
+There is a file for each location. To add more locations, just add them to the _locations directory. 
