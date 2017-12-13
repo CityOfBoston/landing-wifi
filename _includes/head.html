@@ -7,7 +7,9 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400italic|Montserrat:700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <style>
+    *{box-sizing:border-box}html{height:100%;font-size:responsize 14px 18px}body{background-color:#487a32;color:#fff;max-width:31.1111111111em;margin:0 auto;min-height:100%;padding:3em 1em;text-align:center;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;-ms-flex-direction:column;flex-direction:column}.bg-w{background-color:#fff}.c-fg{color:#487a32}.c-g100{color:#d8d8d8}.c-w{color:#fff}.d-ib{display:inline-block}.ff-ss{font-family:Montserrat,arial,sans-serif}.ff-s{font-family:Lora,Georgia,serif}.fs-i{font-style:italic}.fs-n{font-style:normal}.fs-400{font-size:1.66666666667em}.fs-600{font-size:2.22222222222em}.fw-300{font-weight:300}.fw-700{font-weight:700}.lh-100{line-height:1.1}.lh-300{line-height:1.4}.ls-none{list-style:none}.mh-50{min-height:50px}.mh-000{margin-left:0;margin-right:0}.mv-000{margin-bottom:0;margin-top:0}.mt-200,.mv-200{margin-top:1.38888888889rem}.mb-100{margin-bottom:.75rem}.mb-200,.mv-200{margin-bottom:1.38888888889rem}.mt-400{margin-top:2.777777778rem}.mb-400{margin-bottom:2.777777778rem}.mw-250{max-width:250px}.mw-700{max-width:38.8888888889rem}.path100{fill:#fff}.pv-100{padding-top:.5rem;padding-bottom:.5rem}.ph-000{padding-left:0;padding-right:0}.ph-200{padding-left:1.38888888889rem;padding-right:1.38888888889rem}.ta-c{text-align:center}.ta-l{text-align:left}.td-n{text-decoration:none}.tt-u{text-transform:uppercase}.w-100{width:100%}
+  </style>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
